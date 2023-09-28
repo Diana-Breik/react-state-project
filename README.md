@@ -1,27 +1,30 @@
-# React + TypeScript + Vite
+Coding: React-State Coding
+Rick&Morty-Gallery
+*
+* Schritt 1: Erstellt ein neues React-Projekt mit Vite und TypeScript.
+* Enter answer here
+* Schritt 2: Nutzt die Daten, die Ihr von dieser API abrufen könnt:  https://rickandmortyapi.com/api/character/
+* speichert die Daten in einer separaten TypeScript-Datei
+* übergibt eure Daten an euer useState
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Enter answer here
+*
+* Schritt 3: Übergibt diesen state an Komponenten, die diese Daten dann visualisieren
+* Enter answer here
+* Schritt 4: Legt euch gemeinsam ein Inputfield an in der App.tsx, der die Suche auslösen soll
+* Filtert eure Suche, sodass euch nur die Charaktere angezeigt werden, die ihr gesucht habt.
+* Enter answer here
+* Schritt 5: Ergänzt eure Suche, sodass eine Fehlermeldung auftaucht, wenn im Inputfield ein Name eingegeben wird der nicht existiert
+* Enter answer here
+* Falls du diese Aufgabe bereits früh abgeschlossen hast, kannst du dich den Bonusaufgaben widmen.
 
-Currently, two official plugins are available:
+—
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Bonus
+Falls ihr zusätzliche Herausforderungen sucht, könnt ihr diese Bonus-Aufgabe angehen.
+*
+* Schreibe eine Funktion die dir nur 5 Charaktere anzeigt
+* implementiere diese Logik auf einen weiteren Button
+* bei jedem klick sollen die nächsten 5 Charaktere ausgegeben werden.
+* Enter answer here
+* Baut useStates in euren Blog ein.
